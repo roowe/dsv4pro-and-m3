@@ -1,0 +1,9 @@
+[project]
+name = "llm-loadtest"
+version = "0.1.0"
+description = "LLM API 并发稳定性压测"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.27",
+    "python-dotenv>=1.0",
+]
